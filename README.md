@@ -9,3 +9,5 @@ git commit -m ""
 
 
 git push and python3 -m http.server
+
+### Added custom google fonts.
