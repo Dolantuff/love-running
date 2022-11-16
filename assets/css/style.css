@@ -51,3 +51,26 @@ h1, h2{
 #menu a:hover{
     border-bottom: 2px solid black;
 }
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background: url("images/hero-image.webp") no-repeat gray;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    /* This helps stop the flow going over the header */
+    overflow: hidden;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
