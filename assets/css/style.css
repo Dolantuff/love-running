@@ -29,10 +29,12 @@ h1, h2{
     font-size: 280%;
 }
 #logo:hover{
-    color: whitesmoke;
-    background-color: black;
+    border-bottom: 2px solid black;
 }
 
+#menu, #logo {
+    line-height: 75px;
+}
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
@@ -45,4 +47,7 @@ h1, h2{
 #menu a{
     text-decoration: none;
     color: inherit;
+}
+#menu a:hover{
+    border-bottom: 2px solid black;
 }
