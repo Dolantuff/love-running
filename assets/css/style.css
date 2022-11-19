@@ -101,3 +101,26 @@ h1, h2{
 
     position: absolute;
 }
+
+#club-ethos{
+    height: 600px;
+}
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background: blue;
+}
+#right-about{
+padding-top: 30px;
+width: 33%;
+float: right;
+background: silver;
+}
+#center-about{
+width: 33%;
+/* center the div */
+margin: 0 auto;
+background: green;
+
+}
