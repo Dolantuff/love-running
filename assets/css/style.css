@@ -109,13 +109,11 @@ h1, h2{
     padding-top: 30px;
     width: 33%;
     float: left;
-    background: ;
 }
 #right-about{
 padding-top: 30px;
 width: 33%;
 float: right;
-background:;
 }
 #welcome{
     text-align: center;
@@ -144,7 +142,6 @@ background:;
 width: 33%;
 /* center the div */
 margin: 0 auto;
-background: ;
 }
 hr{
     border-top: 1px solid #3a3a3a;
