@@ -249,9 +249,15 @@ footer{
         height: 150px;
         padding: 0;
     }
+
 }
 
 @media screen and (max-width: 950px){
+    #logo {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 185%;
+    }
     #menu{
         clear: left;
         float: left;
